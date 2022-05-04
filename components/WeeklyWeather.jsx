@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const WeeklyWeather = ({ weeklyWeather, timezone }) => {
 
-   console.log(weeklyWeather);
+   //console.log(weeklyWeather);
 
    return (
       <div className='mt-10'>
