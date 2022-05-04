@@ -1,6 +1,6 @@
 import React from 'react'
 import cities from '../../lib/city.list.json';
-import { bootstrap as bootstrapGlobalAgent } from 'global-agent';
+//import { bootstrap as bootstrapGlobalAgent } from 'global-agent';
 import Head from 'next/head';
 import TodaysWeather from '../../components/TodaysWeather';
 import moment from 'moment-timezone';
@@ -11,7 +11,7 @@ import Link from 'next/link'
 
 export const getServerSideProps = async ({ params }) => {
 
-   bootstrapGlobalAgent();
+   //bootstrapGlobalAgent();
 
    const city = getCity(params.slug)
 
