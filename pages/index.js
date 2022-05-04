@@ -13,9 +13,8 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<div className='flex h-full items-center justify-center'>
+			<div className='flex h-full my-4 justify-center'>
 				<div className='relative max-w-3xl mx-auto w-full'>
-					
 					<SearchBox placeholder='Buscar ciudad ...'/>
 					<FavouritePlaces />
 				</div>

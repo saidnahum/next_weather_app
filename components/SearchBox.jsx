@@ -56,7 +56,7 @@ const SearchBox = ({ placeholder }) => {
    return (
 
       <div className="relative mb-5">
-         <div className='flex flex-col justify-center items-center space-y-5 text-center mb-10'>
+         <div className='flex flex-col justify-center items-center space-y-3 text-center mb-6'>
             <h1 className='text-2xl font-bold'>Said's Weather App</h1>
             <span>Fuente de información:</span>
             <div className='w-20'>

@@ -99,7 +99,7 @@ const CityPage = ({ city, currentWeather, dailyWeather, hourlyWeather, timezone 
             <title>{city.name} - Said's Weather App</title>
          </Head>
 
-         <div className='my-10'>
+         <div className='my-4'>
             <div className='mx-5'>
 
                <div className='p-3'>
