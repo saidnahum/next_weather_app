@@ -46,7 +46,7 @@ const TodaysWeather = ({ city, weather, currentWeather, timezone }) => {
                      />
                   </div>
 
-                  <h3 className='capitalize font-bold'>
+                  <h3 className='capitalize font-bold text-center'>
                      {weather.weather[0].description}
                   </h3>
                </div>
